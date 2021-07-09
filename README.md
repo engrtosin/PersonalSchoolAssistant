@@ -120,6 +120,54 @@ These are the tabs common to all the screens.
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
+#### User
+| Property    | Type        | Description            | Required   | 
+| ----------- | ----------- | -----------            | ---------- |
+| objectId    | String      | unique id for this user  |           |
+| username    | String      | user display name                  |            |
+| password    | String      | password                   |              |
+| userPhoto   | File        | user's display photo                   |           |
+| userEmail       | String      | user's school email                   |             |
+#### Task
+| Property    | Type        | Description            | Required   | 
+| ----------- | ----------- | -----------            | ---------- |
+| objectId    | String      | unique id for this user  |           |
+| taskTitle    | String      | user display name                  |            |
+| taskBody    | String      | password                   |              |
+| due   | File        | user's display photo                   |           |
+| course       | String      | user's school email                   |             |
+#### Course
+| Property    | Type        | Description            | Required   | 
+| ----------- | ----------- | -----------            | ---------- |
+| objectId    | String      | unique id for this user  |           |
+| couseTitle    | String      | user display name                  |            |
+| courseId    | String      | password                   |              |
+| memberStudents   | File        | user's display photo                   |           |
+| instructorEmail       | String      | user's school email                   |             |
+#### Group
+| Property    | Type        | Description            | Required   | 
+| ----------- | ----------- | -----------            | ---------- |
+| objectId    | String      | unique id for this user  |           |
+| username    | String      | user display name                  |            |
+| password    | String      | password                   |              |
+| userPhoto   | File        | user's display photo                   |           |
+| school email       | String      | user's school email                   |             |
+#### Event
+| Property    | Type        | Description            | Required   | 
+| ----------- | ----------- | -----------            | ---------- |
+| objectId    | String      | unique id for this user  |           |
+| title    | String      | user display name                  |            |
+| body    | String      | password                   |              |
+| time   | File        | user's display photo                   |           |
+| course       | String      | user's school email                   |             |
+#### Message
+| Property    | Type        | Description            | Required   | 
+| ----------- | ----------- | -----------            | ---------- |
+| objectId    | String      | unique id for this user  |           |
+| username    | String      | user display name                  |            |
+| password    | String      | password                   |              |
+| userPhoto   | File        | user's display photo                   |           |
+| school email       | String      | user's school email                   |             |
 [Add table of models]
 ### Networking
 - [Add list of network requests by screen ]
