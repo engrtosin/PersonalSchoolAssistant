@@ -111,8 +111,7 @@ These are the tabs common to all the screens.
    * External document reader.
 
 ## Wireframes
-<img src="https://imgur.com/pdLV9q3" width=600>
-<img src="https://imgur.com/Q1c5buW" width=600>
+<img src="PSA_full_wireframe.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
